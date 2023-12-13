@@ -40,3 +40,18 @@ input[type="password"]{
 input[type]{
     background-color: ghostwhite;
 }
+
+
+/* pseudo class */
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+button:active{
+    background-color: palevioletred;
+}
+
+/* checked */
+/* nth-of-type */
+
