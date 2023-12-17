@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 100px;
+    border: 10px solid black;
+    margin: 5px;
+    background-color: red;
+    display:inline;
+}
+div{
+    display: inline-block;
+}
