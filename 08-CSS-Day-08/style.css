@@ -1,10 +1,14 @@
 div{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: rgb(255, 0,0,0.7);
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: margin-top 1s steps(5) 0.5s;
+
+}
+div:hover{
+    margin-top: 200px;
+    background-color: pink;
 }
 
-#opacity{
-    background-color: yellow;
-    opacity: 0.2;
-}
