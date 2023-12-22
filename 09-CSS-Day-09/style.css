@@ -5,9 +5,11 @@
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     /* justify-content:start;
     justify-content: space-between; */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 h1{
     text-align: center;
