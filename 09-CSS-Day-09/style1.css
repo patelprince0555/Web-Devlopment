@@ -3,6 +3,7 @@
     width: 400px;
     border: 2px solid lightseagreen;
     background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
