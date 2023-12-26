@@ -3,6 +3,8 @@
     height: 300px;
     background-color:red;
     display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
 }
 .item{
     width: 100px;
