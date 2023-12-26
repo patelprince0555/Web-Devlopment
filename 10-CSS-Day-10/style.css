@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 30px;
 
 .item{
     width: 100px;
