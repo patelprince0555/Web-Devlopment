@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+.sidebar_menu{
+    position: fixed;
+    /* left: -300px; */
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+.side_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255,255,255,0.5);
+}
+ .side_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.side_menu .btn_two{
+    color: grey;
+    font_size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 250px;
+}
+.side_menu .menu{
+    position: absolute;
+    width: 100px;
+    top: 80px;
+}
