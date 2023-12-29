@@ -39,15 +39,3 @@
     font-size: 20px;
     font-weight: 500;
 }
-.side_menu .btn_two{
-    color: grey;
-    font_size: 25px;
-    line-height: 60px;
-    position: absolute;
-    left: 250px;
-}
-.side_menu .menu{
-    position: absolute;
-    width: 100px;
-    top: 80px;
-}
