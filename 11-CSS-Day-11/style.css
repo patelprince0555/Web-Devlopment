@@ -45,20 +45,20 @@
     font-weight: 700;
 }
 .sidebar_menu .btn_two i {
-color: gray;
-font-size: 20px;
-line-height: 60px;
-position: absolute;
-left: 250px;
-opacity: 0;
-cursor: pointer;
-transition: all 0.3s linear;
+    color: gray;
+    font-size: 20px;
+    line-height: 60px;
+    position: absolute;
+    left: 250px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
 
 }
 .sidebar_menu .menu {
-position: absolute;
-width: 100%;
-top: 80px;
+    position: absolute;
+    width: 100%;
+    top: 80px;
 }
 .sidebar_menu .menu li {
     margin-top: 6px;
