@@ -65,3 +65,17 @@ top: 80px;
 .sidebar_menu .menu i {
     padding-right: 8px;
 }
+.sidebar_menu .social_media{
+    position: absolute;
+    bottom:50px;
+    left: 25%;
+
+}
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0.5px;
+}
+#check{
+    display: none;
+}
