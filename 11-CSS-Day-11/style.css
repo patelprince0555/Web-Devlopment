@@ -46,11 +46,22 @@ font-size: 30px;
 line-height: 60px;
 position: absolute;
 left: 250px;
+opacity: 0;
+
 }
 .sidebar_menu .menu {
 position: absolute;
 width: 100%;
 top: 80px;
-
 }
-
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+.sidebar_menu .menu i,a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar_menu .menu i {
+    padding-right: 8px;
+}
