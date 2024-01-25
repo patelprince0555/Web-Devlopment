@@ -9,4 +9,20 @@
 }
 .main{
     display: flex;
+    height: 100vh;
+}
+.side-bar{
+    background-color: red;
+    width: 340px;
+}
+.main-content{
+    background-color: blue;
+    flex: 1;
+}
+.music-Player{
+    background-color: yellow;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 72px;
 }
