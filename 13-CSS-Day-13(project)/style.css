@@ -20,6 +20,7 @@
     background-color:#121212;
     flex: 1;
     border-radius: 1rem;
+    overflow: auto;
 }
 .music-Player{
     background-color: #121212;
