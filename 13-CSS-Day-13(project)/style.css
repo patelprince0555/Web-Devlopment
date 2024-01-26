@@ -44,6 +44,7 @@ a{
     padding: 0.5rem 0.75rem;
 }
 .nav-option{
+    background-color: #121212;
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
@@ -52,9 +53,11 @@ a{
     opacity: 1;
 }
 .nav-option i {
+    background-color: #121212;
     font-size: 1.25rem;
 }
 .nav-option a {
+    background-color: #121212;
     font-size: 1.25rem;
     margin-left: 1rem;
 }
@@ -66,19 +69,23 @@ a{
     padding: 0.5rem 0.75rem;
 }
 .options{
+    background-color: #121212;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .lib-option img {
+    background-color: #121212;
     height: 1.25rem;
     width: 1.25rem;
 }
 .icons{
+    background-color: #121212;
     font-size: 1.25rem;
     display: flex;
 }
 .icons i {
+    background-color: #121212;
     opacity: 0.7;
     margin-right: 1rem;
 }
