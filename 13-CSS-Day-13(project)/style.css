@@ -121,6 +121,12 @@ a{
     color: black;
 
 }
+.dark-badge{
+    background-color:#121212;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .sticky-nav{
     position: sticky;
     top: 0;
@@ -132,9 +138,11 @@ a{
 
 }
 .sticky-nav-icons{
+    background-color: #121212;
     margin-left: 0.75rem;
 }
 .sticky-nav-optios{
+    background-color: #121212;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,4 +150,9 @@ a{
 }
 .nav-item{
     margin-right: 1rem;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
 }
