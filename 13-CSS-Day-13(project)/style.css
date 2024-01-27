@@ -203,3 +203,15 @@ a{
     opacity: 0.4;
      
 }
+.music-player{
+    display: flex;
+}
+.album{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.controls{
+    width:25%;
+}
