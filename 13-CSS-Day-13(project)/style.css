@@ -127,5 +127,19 @@ a{
     background-color:#121212;
     display: flex;
      justify-content: space-between;
+     align-items: center;
+     padding: 1rem 0 1rem 0;
 
+}
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+.sticky-nav-optios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav-item{
+    margin-right: 1rem;
 }
