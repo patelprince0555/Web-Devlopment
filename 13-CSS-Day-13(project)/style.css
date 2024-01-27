@@ -205,13 +205,21 @@ a{
 }
 .music-player{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .album{
-    width:25%;
+    width: 25%;
+    background-color: green;
 }
 .player{
-    width:50%;
+    width: 50%;
+    background-color: orange;
 }
 .controls{
-    width:25%;
+    width: 25%;
+    background-color: aqua;
+}
+.player-control-icon{
+    height: 20px;
 }
