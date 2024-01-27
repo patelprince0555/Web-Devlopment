@@ -21,7 +21,7 @@
     background-color:#121212;
     flex: 1;
     border-radius: 1rem;
-    overflow: auto;
+    overflow:auto;
     padding: 0 1.5rem 0 1.5rem;
 }
 .music-Player{
@@ -139,6 +139,7 @@ a{
      justify-content: space-between;
      align-items: center;
      padding: 1rem 0 1rem 0;
+     z-index: 10;
 
 }
 .sticky-nav-icons{
@@ -186,4 +187,19 @@ a{
     background-color: #232323;
     font-size: 0.75rem;
     opacity: 0.7;
+}
+.footer{
+    background-color: #121212;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    background-color: #121212;
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid #fff;
+    opacity: 0.4;
+     
 }
