@@ -258,10 +258,9 @@ a{
     align-items: center;
 }
 .album-img{
-    width: 15%;
-    height: 50px;
-    padding: 2rem;
-    margin-right:0.5rem;
+    width: 20%;
+    height: 60px;
+    padding: 1rem;
     border-radius: 1.5rem;
 }
 .love{
@@ -272,10 +271,14 @@ a{
     opacity: 0.7;
 }
 .title-player{
-    margin-right:1rem
+    margin-right:1rem;
 }
 .title1{
-    margin-right:1rem
+    margin-right:1rem;
+    opacity: 0.7;
+}
+.title1:hover{
+    opacity: 1;
 }
 .controls-player{
     display: flex;
