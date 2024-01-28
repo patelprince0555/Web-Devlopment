@@ -277,3 +277,17 @@ a{
 .title1{
     margin-right:1rem
 }
+.controls-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.controls-icon{
+    height: 1rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.controls-icon:hover{
+    opacity: 1;
+}
