@@ -41,3 +41,28 @@ if((str[0]=='A'||str[0]=='a')&&str.length>5){
 else{
     console.log("not");
 }
+
+// question 5
+let a= 40;
+let b= 4;
+let c =10;
+if(a>b&&a>c){
+    console.log(a, " is greater");
+}
+else if(b>c){
+    console.log(b ," is greater");
+}
+else{
+    console.log(c," is greater")
+}
+
+// question 6
+
+let num1= 32;
+let num2 = 47852;
+if((num1%10)==(num2%10)){
+    console.log("numbers have the same last digit which is ",num2%10);
+}
+else{
+    console.log("numbers don't have the same last digit");
+}
