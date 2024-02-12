@@ -26,3 +26,10 @@ let colors2=["black","violet","purple"];
 let colors1=colors.concat(colors2);
 console.log(colors1);
 console.log(colors1.slice(2));
+
+// practice question 2
+
+// question 1
+let start1=["january","july","march","august"];
+let start2=start1.splice(0,2,"july","june");
+console.log(start1); 
