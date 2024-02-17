@@ -39,3 +39,21 @@ let n =10;
 for(let i=2;i<=10;i=i+2){
     console.log(i)
 }
+
+
+// print the multiplication table of 5
+console.log("print the multiplication table of 5")
+let n1= 5;
+for(let i=1;i<=10;i++){
+    let table =i+"*"+n1+"="+i*n1;
+    console.log(table)
+
+}
+
+// method 2
+let n2 =prompt("Enter your number which you want to write table");
+console.log("print the multiplication table of "+n2)
+n2=parseInt(n2);
+for(let i=n2;i<=n2*10;i=i+n2){
+    console.log(i)
+}
