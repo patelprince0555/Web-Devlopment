@@ -13,7 +13,7 @@ while(i<=20){
 }
 
 
-// guess fav movie game
+// guess favorite movie game
 let favmovie ="avatar";
 let guess =prompt("guess my favorite movie");
 while((guess!=favmovie)&&(guess!="quit")){

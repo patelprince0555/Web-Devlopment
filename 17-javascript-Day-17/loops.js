@@ -11,7 +11,6 @@ for(let i=1;i<=5;i++){
 
 for(let i=5;i>=1;i--){
    console.log(i);
-
 }
 
 //  print all odd numbers(1to15)
