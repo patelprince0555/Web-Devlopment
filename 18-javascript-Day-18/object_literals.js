@@ -7,5 +7,14 @@ const student ={
 const item ={
     price:99.99,
     discount: 50,
-    colors = ["red","pink"]
+    colors : ["red","pink"]
+}; 
+
+
+let post={
+    username:"@princepatel0555",
+    content:"This is my #firstpost",
+    likes:150,
+    reposts:5,
+    tags:["@apnacollege","delta"]
 };
