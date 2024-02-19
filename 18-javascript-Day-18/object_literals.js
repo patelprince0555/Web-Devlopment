@@ -10,7 +10,6 @@ const item ={
     colors : ["red","pink"]
 }; 
 
-
 let post={
     username:"@princepatel0555",
     content:"This is my #firstpost",
