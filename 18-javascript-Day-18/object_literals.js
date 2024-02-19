@@ -5,7 +5,7 @@ const student ={
 };
 
 const item ={
-    price:99.99,
+    price:99.99, 
     discount: 50,
     colors : ["red","pink"]
 }; 
@@ -18,3 +18,6 @@ let post={
     reposts:5,
     tags:["@apnacollege","delta"]
 };
+
+console.log(post["likes"]);
+console.log(post)
