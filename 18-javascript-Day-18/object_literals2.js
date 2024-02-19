@@ -4,4 +4,4 @@ const student ={
     marks:9,
     city:"delhi"
 };
-console.log(delete student.city);
+console.log(delete student.city); 
