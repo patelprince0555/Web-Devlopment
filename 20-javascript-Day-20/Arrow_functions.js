@@ -9,3 +9,8 @@ const cube=(n)=>{
 const pow =(a,b)=>{
     return a**b;
 };
+
+// implicit return
+const mul =(a,b)=>(
+    a*b
+);
