@@ -15,5 +15,5 @@ for(li of lis){
     li.addEventListener("click",function(event){
         event.stopPropagation();
         console.log("li was clicked");
-    })
+    });
 }
