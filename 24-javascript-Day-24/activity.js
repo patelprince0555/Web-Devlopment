@@ -15,6 +15,14 @@ btn.addEventListener("click",function(){
    
 });
 
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON"){
+        let listitem=event.target.parentElement;
+        console.log(listitem);
+        listitem.remove();
+    }
+})
+
 // let delbtns=document.querySelectorAll(".delete");
 // for(delBtn of delbtns){
 //     delBtn.addEventListener("click",function(){
