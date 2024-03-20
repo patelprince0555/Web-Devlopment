@@ -53,7 +53,12 @@ function checkans(idx){
         }
         // console.log("same value");
     }else{
-        h3.innerText=`Game over! press any key to start.`;
+        h3.innerHTML=`Game over! your score was <b>${level}<b> <br> press any key to start.`;
+        document.querySelector("body").style.backgroundColor="red";
+        setTimeout(function(){
+            document.querySelector("body").style.backgroundColor="white";
+        },200);
+        reset();
     }
 }
 
@@ -77,6 +82,6 @@ for(btn of allbtns){
 function reset(){
     started=false;
     gameseq=[];
-    userseq=[];
+    useresq=[];
     level=0;
 }
