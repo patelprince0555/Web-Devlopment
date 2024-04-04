@@ -6,7 +6,6 @@ console.log(a+b);
 
 // this is synchrous nature
 
-
 setTimeout(()=>{
     console.log("prince");
 },2000);
