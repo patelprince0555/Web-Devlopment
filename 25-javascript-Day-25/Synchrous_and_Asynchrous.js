@@ -10,7 +10,6 @@ console.log(a+b);
 setTimeout(()=>{
     console.log("prince");
 },2000);
-
 setTimeout(()=>{
     console.log("patel");
 },2000);
