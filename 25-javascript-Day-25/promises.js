@@ -4,6 +4,12 @@ function savetodb(data,success,failure){
         success();
     }else{
         failure();
-        
+
     }
 }
+
+savetodb("apna college",()=>{
+    console.log("your data was saved");
+},()=>{
+    console.log("weak connection. data not saved");
+})
