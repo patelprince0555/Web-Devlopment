@@ -45,4 +45,7 @@ function savetodb(data){
         }
     });
 }
+
+let data=savetodb("apna college");
+console.log(data);
    
