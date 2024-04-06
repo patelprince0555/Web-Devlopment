@@ -4,7 +4,7 @@ let b= 10;
 console.log(b);
 console.log(a+b);
 
-// this is synchrous nature
+// this is synchrous nature because it is continous run
 
 setTimeout(()=>{
     console.log("prince");
