@@ -8,7 +8,6 @@ function changecolor(color,delay){
     });
 }
 
-
 // changecolor("red",1000,()=>{
 //     changecolor("orange",1000 ,()=>{
 //         changecolor("green",1000,()=>{
