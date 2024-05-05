@@ -1,15 +1,15 @@
-// function hello(){
-//     console.log("inside hello fnx");
-//     console.log("hello")
-// }
+function hello(){
+    console.log("inside hello fnx");
+    console.log("hello")
+}
 
-// function demo(){
-//     console.log("calling hello fnx");
-//     hello();
-// }
-// console.log("calling demo fnx");
-// demo();
-// console.log("done,bye!");
+function demo(){
+    console.log("calling hello fnx");
+    hello();
+}
+console.log("calling demo fnx");
+demo();
+console.log("done,bye!");
 
 // visualizing the call stack
 function one(){
@@ -20,6 +20,6 @@ function two(){
 }
 function three(){
     let ans =two()+one();
-   console.log(ans);
+    console.log(ans);
 }
 three();
