@@ -8,23 +8,14 @@ function savetodb(data,success,failure){
     }
 }
 
-savetodb("apna college",
-()=>{
+savetodb("apna college",()=>{
     console.log(" success : your data was saved");
-    savetodb(
-        "hello world",
-        () => {
+    savetodb( "hello world", () => {
         console.log("success 2 : data was saved");
-        savetodb(
-            "prince",
-            ()=>{
-            console.log("success 3: data was saved");
-        },
-        ()=>{
-            console.log("failure 3: weak connection data was not saved");
-        }
-    );
-    },
+        savetodb( "prince", ()=>{
+            console.log("success 3: data was saved"); },
+             ()=>{
+            console.log("failure 3: weak connection data was not saved"); }  ); },
     ()=>{
         console.log("failure 2 :weak connection data was not saved");
     } 
