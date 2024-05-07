@@ -22,9 +22,10 @@ request.then(()=>{
 savetodb("apna college")
 .then(()=>{
     console.log("data1 saved:promise was resolved");
-    savetodb("helloworld").then(()=>{
-        console.log("data2 saved");
-    });
-}).catch(()=>{
+    return savetodb("hello world");
+}).then(()=>{
+    console.log("data2 saved");
+}
+).catch(()=>{
     console.log("promise was rejected");
 });
