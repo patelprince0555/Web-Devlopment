@@ -7,8 +7,14 @@ btn.addEventListener("click",async ()=>{
     show(colleges);
 });
 function show(colleges){
+    let list =document.querySelector("#list");
+    list.innerText="";
     for(col of colleges){
         console.log(col.name);
+
+        let li=document.createElement("li");
+        li.innerText=col.name;
+        list.appendChild(li);
     }
 }
 let country="nepal";
