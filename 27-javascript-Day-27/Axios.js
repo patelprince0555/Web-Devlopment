@@ -17,7 +17,6 @@ function show(colleges){
         list.appendChild(li);
     }
 }
-let country="nepal";
 async function getcolleges(country){
     try{
         let res =await axios.get(url+country);
