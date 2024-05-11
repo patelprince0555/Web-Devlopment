@@ -9,4 +9,4 @@
 // making directories
 // flags
 // touch command
-// deleting files & folders
+// deleting files & folders 
