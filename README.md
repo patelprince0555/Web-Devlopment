@@ -1,1 +1,1 @@
-forntend completed  (HTML ,CSS, Javascript ,teminal and Git & Github)
+forntend completed  (HTML ,CSS, Javascript ,teminal, Git & Github)
