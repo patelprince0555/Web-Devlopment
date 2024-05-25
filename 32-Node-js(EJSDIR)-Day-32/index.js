@@ -17,6 +17,16 @@ app.get("/rolldice",(rq,res)=>{
     let diceval=Math.floor(Math.random()*6)+1;
     res.render("rolldice.ejs",{diceval});
 });
+app.get("/ig/:username",(req,res)=>{
+    let{username}=req.params;
+   const instadata=require("./data.json");
+   const data =instadata[username];
+   if(data){
+    res.render("instragram.ejs",{data})
+   }else{
+    res.render("error.ejs",{username});
+   }
+})
 
 app.listen(port,()=>{
     console.log(`Listening on port ${port}`)
