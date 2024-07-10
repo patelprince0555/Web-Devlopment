@@ -20,10 +20,29 @@ const userSchema=new mongoose.Schema({
 
 const User=mongoose.model("User",userSchema);
 
-// find
-User.find().then((data)=>{
-    console.log(data);
+// delete
+User.findOneAndDelete({name:"peter"}).then((res)=>{
+    console.log(res);
 })
+
+// User.deleteOne({name:"bruce"}).then((res)=>{
+//     console.log(res);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+// update -> returns query
+// User.updateOne({name:"bruce"},{age:50}).then((res)=>{
+// console.log(res);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+
+// find
+// User.find().then((data)=>{
+//     console.log(data);
+// })
 
 // User.insertMany([
 //     {name:"tony",email:"tony@gmail.com",age:50},
