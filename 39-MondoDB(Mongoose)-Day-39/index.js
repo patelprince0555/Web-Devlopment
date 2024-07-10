@@ -20,7 +20,7 @@ const userSchema=new mongoose.Schema({
 
 const User=mongoose.model("User",userSchema);
 
-// delete
+// delete ->query
 User.findOneAndDelete({name:"peter"}).then((res)=>{
     console.log(res);
 })
