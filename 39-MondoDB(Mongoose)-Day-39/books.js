@@ -21,7 +21,19 @@ const bookSchema=mongoose.Schema({
     },
     price:{
         type:Number,
+        min:[1,"please enter a valid price for selling"]
     },
 });
 
 const Book= mongoose.model("Book",bookSchema);
+
+let book1=new Book({
+    title:"mathematics XII",
+    author:"RD shrama",
+    price:"-200",
+});
+book1.save().then((res)=>{
+    console.log(res);
+}).catch((err)=>{
+    console.log(err.errors.price.properties.message);
+})
