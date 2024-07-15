@@ -19,15 +19,15 @@ async function main() {
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }
 
-let chat1=new Chat({
-    from:"neha",
-    to:"priya",
-    message:"send me your exam sheets",
-    Created_at:new Date(),
-})
-chat1.save().then((res)=>{
-    console.log(res);
-})
+// let chat1=new Chat({
+//     from:"neha",
+//     to:"priya",
+//     message:"send me your exam sheets",
+//     Created_at:new Date(),
+// })
+// chat1.save().then((res)=>{
+//     console.log(res);
+// })
 
 app.get("/",(req,res)=>{
     res.send("root is working");
