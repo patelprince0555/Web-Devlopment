@@ -27,6 +27,9 @@ app.get("/random",()=>{
     console.log("This is random page");
 })
 
+app.use((req,res)=>{
+    res.send("page not found!");
+})
 app.listen(8080,()=>{
     console.log("server is listening to port 8080");
 })
