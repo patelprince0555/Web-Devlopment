@@ -14,12 +14,23 @@ const app=express();
 //     next();
 // });
 
-app.use("/",(req,res,next)=>{
-    console.log("i am only for random");
-    next();
+// app.use("/",(req,res,next)=>{
+//     console.log("i am only for random");
+//     next();
+// })
+
+app.use("/api",(req,res,next)=>{
+    let{token}=req.query;
+    if(token==="giveaccess"){
+        next();
+    }res.send("ACCESS DENIED!");
 })
 
-app.get("/",()=>{
+app.get("/api",(req,res)=>{
+    res.send("data");
+})
+
+app.get("/",()=>{ 
     console.log("Hi, I am root");
 })
 
