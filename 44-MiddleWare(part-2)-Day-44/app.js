@@ -1,5 +1,6 @@
 const express=require("express");
 const app=express();
+const ExpressError=require("./ExpressError");
 
 
 // app.use((req,res,next)=>{
@@ -19,16 +20,17 @@ const app=express();
 //     next();
 // })
 
-app.use("/api",(req,res,next)=>{
+const checkToken=(req,res,next)=>{
     let{token}=req.query;
     if(token==="giveaccess"){
         next();
-    }res.send("ACCESS DENIED!");
-})
+    }
+    throw new ExpressError(401,"Access denied!");
+};
 
-app.get("/api",(req,res)=>{
+app.get("/api",checkToken ,(req,res)=>{
     res.send("data");
-})
+});
 
 app.get("/",()=>{ 
     console.log("Hi, I am root");
@@ -44,7 +46,7 @@ app.get("/err",(req,res)=>{
 
 app.use((err,req,res,next)=>{
     console.log("------ERROR------");
-    next(err);
+   res.send(err);
 });
 
 // app.use((req,res)=>{
