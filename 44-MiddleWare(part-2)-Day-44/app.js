@@ -44,10 +44,17 @@ app.get("/err",(req,res)=>{
     abcd=abcd;
 });
 
+
+app.get("/admin",(req,res)=>{
+    throw new ExpressError(403,"Access to admin is forbidden");
+})
+
 app.use((err,req,res,next)=>{
-    console.log("------ERROR------");
-   res.send(err);
+   let{status=500,message="some error occurred"}=err;
+   res.status(status).send(message);
 });
+
+
 
 // app.use((req,res)=>{
 //     res.send("page not found!");
