@@ -36,11 +36,20 @@ app.get("/",()=>{
 
 app.get("/random",()=>{
     console.log("This is random page");
-})
+});
 
-app.use((req,res)=>{
-    res.send("page not found!");
-})
+app.get("/err",(req,res)=>{
+    abcd=abcd;
+});
+
+app.use((err,req,res,next)=>{
+    console.log("------ERROR------");
+    next(err);
+});
+
+// app.use((req,res)=>{
+//     res.send("page not found!");
+// });
 app.listen(8080,()=>{
     console.log("server is listening to port 8080");
-})
+});
