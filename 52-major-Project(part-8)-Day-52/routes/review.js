@@ -10,7 +10,6 @@ const{validateReview,
   }=require("../middleware.js");
 
 const reviewController=require("../controllers/reviews.js");
-const review =require("../models/review.js");
 // Reviews
 //post Route
 router.post("/" ,
