@@ -1,11 +1,18 @@
+import './App.css';
+import Title from "./title.jsx";
 
-import './App.css'
+function Description() {
+  return <h3>Hello, how are you!</h3>;
+}
 
 function App() {
   return (
-    <h1>hello prince!</h1>
-  )
-   
+    <div>
+      <Description />
+      <Title />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
