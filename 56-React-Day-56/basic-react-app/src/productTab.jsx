@@ -3,8 +3,8 @@ import Product from "./product.jsx";
 function ProductTab(){
     return(
         <>
-        <Product/>
-        <Product/>
+        <Product  title="hii" price={3000}/>
+        <Product title="prince" price={2900}/>
         </>
     )
 }
