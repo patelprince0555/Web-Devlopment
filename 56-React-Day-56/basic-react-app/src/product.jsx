@@ -1,12 +1,13 @@
 import "./Product.css";
-function Product({title,price,}){
+function Product({title,price}){
+    let isDiscount=price>=20000;
+    let styles={backgroundColor: isDiscount ? "green":""};
     return(
-        <div className="Product">
+        <div className="Product" style={styles}>
             <h1>{title}</h1>
             <h3>{price}</h3>
-            {price>=20000 ? <p>Discount of 5%</p>:null}
+            {isDiscount? <p>Discount of 5%</p>:null}
         </div>
     );
 }
-
 export default Product;
