@@ -8,6 +8,7 @@ function Description() {
 function App() {
   return (
   <>
+  <h1>Blockbuster Deals ! Shop now</h1>
    <ProductTab/>
    </>
   );
