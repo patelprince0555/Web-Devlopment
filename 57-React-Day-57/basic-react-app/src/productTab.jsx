@@ -11,7 +11,7 @@ let styles={
         <div style={styles}>
         <Product title="Logitech mx master" idx={0}/>
         <Product title="Apple pencil 2nd gen" idx={1}/>
-        <Product title=" Zebronics Zeb-transformer" idx={2}/>
+        <Product title="Zebronics Zeb-transformer" idx={2}/>
         <Product title="Petronics Toad 35" idx={3}/>
         </div>
     )
