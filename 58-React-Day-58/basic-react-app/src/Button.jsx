@@ -15,7 +15,7 @@ function Button(){
         <div>
         <button onClick={handleClick}>Click Me!</button>
         <p onMouseOver={handleOverMouse}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo officiis illum explicabo voluptate exercitationem et in accusamus! Quo natus voluptates fugiat voluptatem? Quae sapiente ad optio dicta? Dolorem, eum laborum?</p>
-        <button onDoubleClick={handleClick}>double click me!</button>
+        <button onDoubleClick={handleDbclick}>double click me!</button>
         </div>
     )
 }
