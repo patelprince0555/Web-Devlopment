@@ -34,7 +34,6 @@ export default function LudoBoard(){
                 <button style={{background:"yellow"}} onClick={updateYellow}>+1</button>
                 <p>Blue moves={moves.green}</p>
                 <button style={{background:"green"}} onClick={updateGreen}>+1</button>
-
             </div>
         </div>
     )
