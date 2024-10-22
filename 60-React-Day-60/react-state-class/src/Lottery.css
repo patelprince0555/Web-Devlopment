@@ -1,4 +1,9 @@
 .ticket{
-    border: solid 1px red;
+    border: solid 1px white;
     border-radius:16px;
+}
+.button{
+    border: solid 2px red;
+    border-radius: 5px;
+    background-color: black;
 }
