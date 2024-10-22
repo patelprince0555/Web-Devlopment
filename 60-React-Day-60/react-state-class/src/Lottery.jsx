@@ -19,7 +19,7 @@ export default function Lottery(){
             </div>
             <br></br>
             <div className="button">
-            <button onClick={buyTicket}>Buy new ticket</button>
+            <button onClick={buyTicket} style={{backgroundColor:"black"}}>Buy new ticket</button>
             </div>
             <h3>{isWinning && "congratulations, you won!"}</h3>
         </div>
