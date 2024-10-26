@@ -1,4 +1,7 @@
 .searchbox{
     text-align: center;
+    text-wrap: wrap;
+    height: 100px;
+    color: aliceblue;
     /* background-color: red; */
 }
