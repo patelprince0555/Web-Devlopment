@@ -38,7 +38,7 @@ export default function SearchBox(){
     }
     return(
         <div className='searchbox'>
-            <h3>Search for the weather</h3>
+            {/* <h3>Search for the weather</h3> */}
             <form onSubmit={handleSubmit}>
             <TextField id="city" 
             label="City Name" 
