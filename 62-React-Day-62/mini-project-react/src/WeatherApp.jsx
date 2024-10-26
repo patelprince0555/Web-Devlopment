@@ -9,14 +9,18 @@ export default function WeatherApp(){
         temp:25.05,
         tempMin:25.05,
         tempMax:25.05,
-        humidity:47,
-        weather:"haze",
-    })
+        Humidity:47,
+        Weather:"haze",
+    });
+
+    let updateInfo=(result)=>{
+        setWeatherInfo(result);
+    }
     return(
         <div style={{textAlign:"center"}}>
             <h4>Weather app by Prince patel</h4>
-            <SearchBox/>
+            <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={WeatherInfo}/>
         </div>
     )
-}
+}  

@@ -22,11 +22,11 @@ export default function InfoBox({info}){
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
             <p>Temperature={info.temp}&deg;c</p>
-            <p>Humidity={info.humidity}</p>
+            <p>Humidity={info.Humidity}</p>
             <p>Min Temperature={info.tempMin}&deg;c</p>
             <p>Max Temperature={info.tempMax}&deg;c</p>
             <p>
-                The Weather can be described as <b>{info.weather}</b> and feels
+                The Weather can be described as <b>{info.Weather}</b> and feels
                 like {info.feelslike}&deg;c
             </p>
         </Typography>
