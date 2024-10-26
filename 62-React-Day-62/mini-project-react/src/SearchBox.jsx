@@ -47,7 +47,7 @@ export default function SearchBox({updateInfo}){
             variant="outlined" 
              required
               value={city} 
-              onChange={handleChange}/>
+              onChange={handleChange} style={{backgroundColor:"white"}}/>
             <br></br>
             <br></br>
             <Button variant="contained" endIcon={<SendIcon />} type='submit'>Search</Button>
