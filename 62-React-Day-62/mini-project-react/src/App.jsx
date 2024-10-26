@@ -1,10 +1,11 @@
-import Bottom from './Button'
-import './App.css'
+// import Bottom from './Button'
+// import './App.css'
+import SearchBox from "./SearchBox"
 
 function App() {
   return (
     <>
-      <Bottom/>
+      <SearchBox/>
     </>
   )
 }
